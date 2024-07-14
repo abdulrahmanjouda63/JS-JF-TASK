@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../img/electronic-transaction-word-cloud-concept-on-black-background-P11MJX.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #8d5151;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #eb8d8d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+#funMessage {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+  animation: bounceIn 0.5s ease-in-out;
+}
+
+.modal {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal-dialog {
+  max-width: 400px;
+  margin: 40px auto;
+  animation: zoomIn 0.5s ease-in-out;
+}
+
+.modal-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  animation: rotateIn 0.5s ease-in-out;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+#transactionChart {
+  width: 100%;
+  height: 200px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate__animated {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+.animate__bounceIn {
+  animation-name: bounceIn;
+}
+
+.animate__zoomIn {
+  animation-name: zoomIn;
+}
+
+.animate__rotateIn {
+  animation-name: rotateIn;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
